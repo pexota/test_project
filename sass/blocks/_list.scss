@@ -1,0 +1,20 @@
+.list{
+    list-style: none;
+}
+.list__iteam{
+    color: #000000;
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 40px;
+    text-align: left;
+}
+.list__iteam::before{
+    content: '\2714';
+    color:#a5b4c8;
+    width: 25px;
+    height: 19px;
+    margin-right: 24px;
+}

@@ -1,0 +1,16 @@
+.equipment{
+    padding-top: 200px;
+    position: relative;
+}
+.equipment__container{
+    display: flex;
+}
+.equipment__img{
+    max-width: 719px;
+    max-height: 861px;
+    position: absolute;
+    right: 20px;
+    top: 250px;
+    z-index: -1;
+}
+
