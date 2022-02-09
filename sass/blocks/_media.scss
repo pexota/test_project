@@ -1,0 +1,192 @@
+@media(max-width:1880px){
+    .equipment__img{
+        top: 350px;
+    }
+    .cheaper{
+        padding-top: 150px;
+    }
+    .autor__drink__bg{
+        z-index: -1;
+    }
+}
+@media(max-width:1330px){
+    .cards__card__title{
+        font-size: 25px;
+    }
+    .cards__card__subtitle{
+        font-size: 20px;
+    }
+    .advantage li{
+    margin-bottom: 15px;
+    text-align: center;
+     }
+    h1{
+        font-size: 40px;
+    }
+    .cheaper{
+        padding-top: 250px;
+    }
+    .autor__drink{
+        margin-top: 500px;
+    }
+
+}
+@media(max-width:1100px){
+    .equipment__container{
+        flex-direction: column;
+    }
+    .equipment__img{
+        position: inherit;
+    }
+    .cheaper{
+        padding-top: 80px;
+        max-height: 700px;
+        background: none;
+    }
+    .cards__card__title{
+        text-align: center;
+    }
+    .autor__drink__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .autor__drink{
+        max-height: 1000px;
+    }
+    .autor__drink__content{
+        margin-top: 50px;
+    }
+    .autor__drink__bg{
+        display: none;
+    }
+    .heading{
+        text-align: center;
+    }
+
+    
+    .advantage{
+        padding-top: 50px;
+    }
+
+
+    .advantage .list{
+        position: relative;
+    }
+    .advantage .list__iteam{
+            text-align: left;
+    }
+
+    .advantage .list__iteam::before{
+        position: absolute;
+        left: 15px;
+    }
+    .equipment .list{
+        position: relative;
+    }
+    .equipment .list__iteam::before{
+        position: absolute;
+        left: 15px;
+    }
+    .equipment .list__iteam{
+        text-align: left;
+    }
+}
+@media(max-width:1100px) {
+    .cards{
+        display: flex;
+        padding: 50px 0px;
+    }
+    .cards__card{
+        flex-direction: column;
+        justify-content: center;
+        max-width: 300px;
+        max-height: 800px;
+        margin: 0px 10px;
+        
+    }
+    .cards__card__left{
+        margin: 5px;
+    }
+    .cards__card__center{
+        margin: 5px;
+    }
+    .cards__card__right{
+        margin: 5px 10px;
+    }
+    .cards__card__price__old{
+        font-size: 25px;
+    }
+    .cards__card__price__new{
+        font-size: 30px;
+    }
+    .cards__card__price__economy{
+        font-size: 25px;
+    }
+
+    .cards__card__product{
+        width: 150px;
+        height: 150px;
+    }
+    .btn{
+        max-width: 200px;
+        max-height: 140px;
+    }
+}
+
+@media(max-width:758px){
+    .equipment{
+        padding-top: 50px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+@media(max-width:570px){
+    .list__iteam::before{
+        color:#a5b4c8;
+    }
+   
+    .heading{
+        font-size: 20px;
+        line-height: 1;
+    }
+    .list__iteam{
+        font-size: 12px;
+        line-height: 1;
+    }
+    .equipment__img{
+        max-width: 300px;
+        max-height: 350px;
+    }
+    .cheaper__subtitle{
+        font-size: 20px;
+        line-height: 1;
+    }
+    .cards{
+        flex-direction: column;
+    }
+    .cards__card{
+        margin-bottom: 15px;
+    }
+    .autor__drink{
+        margin-top: 900px;
+    }
+    .autor__drink__img{
+        max-width: 300px;
+        max-height: 350px;
+    }
+    .advantage{
+        padding-bottom: 50px;
+    }
+}
+
+@media(max-width:400px){
+    .autor__drink{
+        margin-top: 1000px;
+    }
+
+}
+
+
